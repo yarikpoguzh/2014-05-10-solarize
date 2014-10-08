@@ -1,0 +1,149 @@
+body {
+	color: #555;
+	min-width: 960px;
+	font:300 15px/1.8 "Open Sans", Arial, sans-serif;
+}
+
+a,button {
+	transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
+}
+
+h2, h3 {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.6;
+
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 23px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+
+}
+
+.header-top {
+	background: url("../img/banner.jpg") no-repeat 50%;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 100px;
+	background-size: cover;
+}
+
+.main_menu {
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+.main_menu li{
+	display: inline-block;
+	padding: 0px 10px;
+	height: 58px;
+	line-height: 58px;
+}
+
+.main_menu li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	transition: all .3s ease-in;
+}
+
+.main_menu:hover li a {
+	color: transparent;
+	text-shadow: 0 0 3px #FFF;
+}
+
+.main_menu:hover li a:hover {
+	color: transparent;
+	text-shadow: 0 0 0 #FFF;
+}
+
+
+.banner {
+	padding-top: 88px;
+}
+
+.banner .logo {
+	background-color: #82B440;
+	text-transform: uppercase;
+	font-size: 44px;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.banner p {
+	font-size: 23px;
+	letter-spacing: 1px;
+	line-height: 42px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding: 0 150px;
+}
+
+.col-1, .col-2 {
+	float: left;
+	width: 46%;
+}
+
+.col-1 {
+	margin-right: 4%;
+}
+
+.col-2 {
+	margin-left: 4%;
+}
+
+.row {
+	padding: 80px;
+}
+
+.bg-gray {
+	background-color: #F2F2F2;
+}
+
+.caption {
+	font-size: 21px;
+	padding-top: 20px;
+
+}
+
+.button, button {
+	border: 2px solid #82B440;
+	color: #82B440;
+	padding: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 21px;
+}
+
+.button:hover, button:hover {
+	background-color: #82B440;
+	color: #FFFFFF;
+
+}
+
+p + .button, p + button {
+	margin-top: 30px;
+
+}
+
+
+/*p ~ .button {*/			/* Всем соседям с классом button после тега p, если после тега p будет 5 button к примеру */
+	/*margin-top: 30px;*/
+/*}*/
+
+
