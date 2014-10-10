@@ -4,7 +4,7 @@ body {
 	font:300 15px/1.8 "Open Sans", Arial, sans-serif;
 }
 
-a,button {
+a,button,img {
 	transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
 }
 
@@ -45,7 +45,7 @@ h3 {
 
 .main_menu li{
 	display: inline-block;
-	padding: 0px 10px;
+	padding: 0 10px;
 	height: 58px;
 	line-height: 58px;
 }
@@ -113,6 +113,10 @@ h3 {
 	background-color: #F2F2F2;
 }
 
+.bg-green {
+	background-color: #82B440;
+}
+
 .caption {
 	font-size: 21px;
 	padding-top: 20px;
@@ -140,6 +144,193 @@ p + .button, p + button {
 	margin-top: 30px;
 
 }
+
+.centertext {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.centertext h2 {
+	font-size: 38px;
+	font-weight: 700;
+	padding-bottom: 44px;
+}
+
+.centertext p {
+	font-size: 23px;
+	padding: 0 50px 15px;
+}
+
+.green {
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.green:hover {
+	background-color: #FFFFFF;
+	color: #82B440;
+}
+
+.black h2{
+	color: #555555;
+	padding-bottom: 0;
+}
+
+.black p{
+	color: #555555;
+	font-size: 20px;
+	padding-bottom: 44px;
+}
+
+.col-3 {
+	width: 320px;
+	float: left;
+}
+
+.all-col h3 {
+	font-size: 17.7px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+
+.all-col p {
+	font-size: 14.4px;
+	margin-bottom: 29px;
+	padding-left: 39px;
+}
+
+.all-col li {
+	padding: 7px 0;
+}
+
+.fa {
+	padding-right: 20px;
+	color: #82B440;
+	font-size: 20px;
+}
+
+.fa:hover {
+	color: #82F543;
+	text-shadow: 0 0 20px;
+	transition: all .8s ease-in;
+
+
+}
+
+
+
+
+
+
+.cf>.centertext>p {
+	font-size: 20px;
+	padding-bottom: 44px;
+}
+
+.cf>.centertext h2{
+	padding-bottom: 0;
+}
+
+.col-4 {
+	width: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	text-align: center;
+
+
+}
+
+.col-4 h3 {
+	font-size: 18.8px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-bottom: 9px;
+}
+
+.col-4 p {
+	font-size: 14.4px;
+	color: #FFFFFF;
+}
+
+.col-4:hover {
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 0 100px 0 100px;
+	transition: all .3s ease-in;
+	padding-top: 10px;
+	box-shadow: 20px 50px 30px rgba(0,0,0,0.5);
+
+}
+
+.col-4:hover h3 {
+	text-shadow: 0 0 30px rgba(255, 255, 255, 1);
+}
+
+
+a>img {
+	margin: 0 0 29px 0;
+	border: 10px solid #FFFFFF;
+	border-radius: 50%;
+
+}
+
+a:hover>img {
+	margin: 0 0 29px 0;
+	border: 10px solid #82B440;
+	border-radius: 50%;
+	transition: all .3s ease-in;
+
+
+}
+
+footer {
+	background-color: #222222;
+}
+
+footer p {
+	opacity: .4;
+
+}
+
+footer .fa {
+	font-size: 28.8px;
+	color: #FFFFFF;
+	opacity: 0.2;
+	margin-bottom: 60px;
+}
+
+footer .fa:hover {
+	color: #FFFFFF;
+	opacity: 1;
+	transition: all 0.35s ease-in;
+}
+
+hr {
+	margin: 7px 0 22px 0;
+	opacity: 0.05;
+	border-bottom: 1px solid;
+
+}
+
+.copyright h4{
+	padding: 44px 0;
+	font-size: 14.4px;
+	opacity: 0.4;
+}
+
+.copyright a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #82B440;
+	text-shadow: 0 0 20px;
+	transition: all 0.35s ease-in;
+}
+
+
+
 
 
 /*p ~ .button {*/			/* Всем соседям с классом button после тега p, если после тега p будет 5 button к примеру */
